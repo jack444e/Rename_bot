@@ -2,12 +2,12 @@ from pyrogram import Client, filters
 import os
 
 # Use environment variables (recommended for Koyeb)
-api_id = int(os.environ["API_ID"])
-api_hash = os.environ["API_HASH"]
-bot_token = os.environ["BOT_TOKEN"]
+api_id = int(os.environ["23939637"])
+api_hash = os.environ["477f51720ede3eef6997dbc442151c43"]
+bot_token = os.environ["7489586742:AAFyIDZwQa8prfQqhtXYgBJYrqhT94JuRWE"]
 
-source_chat_id = int(os.environ["SOURCE_CHAT_ID"])
-target_chat_id = int(os.environ["TARGET_CHAT_ID"])
+source_chat_id = int(os.environ["-1002557248555"])
+target_chat_id = int(os.environ["-4686512840"])
 
 app = Client("caption_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
